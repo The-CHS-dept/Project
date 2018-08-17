@@ -3,17 +3,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style type="text/css">
-	form{text-align:center;margin-top:20%;}
 
-</style>
 <title>ALL PLOTS</title>
 </head>
 <body>
-	<jsp:include page="lecturer.html"/><br/><br/>
+	<h1>ALL PLOTS</h1>
 	<form action="AllPlotsServlet" method="post">
-		<h1>ALL PLOTS</h1>
-		<input type="submit" name="allPlots" value="See All Existing Plots"/>
+		<input type="submit" name="allPlots" value="See All Plots"/>
 	</form>
 </body>
 </html>
