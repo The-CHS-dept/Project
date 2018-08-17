@@ -3,21 +3,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style type="text/css">
-	h1{text-align:center;}
-	form{text-align:center;margin-top:20%;}
-	
-</style>
 
 <title>MY PROPOSAL STATUS</title>
 </head>
 <body>
-	<jsp:include page="student.html"/><br/><br/>
-	
+	<h1>MY PROPOSAL STATUS</h1>
 	<form action="ViewProposalStatusServlet" method="post">
-		<h1>MY PROPOSAL STATUS</h1>
-		
-		<input type="submit" name="myProposalStatus" value="Check If My Proposal Has Been Approved"/>
+		Enter Registration Number <input type="text" name="theNum"/><br/>
+		<input type="submit" name="myProposalStatus" value="View Proposal Status"/>
 	</form>
 </body>
 </html>

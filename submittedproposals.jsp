@@ -3,17 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style type="text/css">
-	h1{text-align:center;}
-	form{text-align:center;margin-top:20%;}
-	
-</style>
+
 <title>SUBMITTED PROPOSALS</title>
 </head>
 <body>
-	<jsp:include page="lecturer.html"/><br/><br/>
+	<h1>SUBMITTED PROPOSALS</h1>
 	<form action="SubmittedProposalsServlet" method="post">
-		<h1>SUBMITTED PROPOSALS</h1>
 		<input type="submit" name="proposals" value="See Submitted Proposals"/>
 	</form>
 </body>
