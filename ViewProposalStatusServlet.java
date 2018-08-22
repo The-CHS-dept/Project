@@ -16,7 +16,8 @@ import javax.servlet.http.HttpServletResponse;
 public class ViewProposalStatusServlet extends HttpServlet {
 private static final long serialVersionUID = 1L;
        
-    
+    //post method
+
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		Proposal proposal = new Proposal();
